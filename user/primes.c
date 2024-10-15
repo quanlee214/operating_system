@@ -45,7 +45,7 @@ int main(int argc, char *argv[])
 {
     int p[2];
     pipe(p);
-    for (int i = 2; i < 35; i++) {
+    for (int i = 2; i <= 80; i++) {
         int n = i;
         write(p[1], &n, sizeof(int));
     }

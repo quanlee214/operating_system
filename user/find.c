@@ -83,7 +83,6 @@ void find(char *path, char *filename) {
 
 int main(int argc, char *argv[]) {
     if (argc != 3) {
-        printf("Usage: find <path> <filename>\n");
         exit(1);
     }
 
